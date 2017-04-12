@@ -10,7 +10,7 @@ public class City extends DataSupport {
 
     private int id;
 
-    private String citeName;//记录城市名字
+    private String cityName;//记录城市名字
 
     private int cityCode;//记录市的代号
 
@@ -24,13 +24,6 @@ public class City extends DataSupport {
         this.id = id;
     }
 
-    public String getCiteName() {
-        return citeName;
-    }
-
-    public void setCiteName(String citeName) {
-        this.citeName = citeName;
-    }
 
     public int getCityCode() {
         return cityCode;
@@ -46,5 +39,13 @@ public class City extends DataSupport {
 
     public void setProvinceId(int provinceId) {
         this.provinceId = provinceId;
+    }
+
+    public String getCityName() {
+        return cityName;
+    }
+
+    public void setCityName(String cityName) {
+        this.cityName = cityName;
     }
 }
